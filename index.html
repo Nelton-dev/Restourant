@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ballena | Fine Dining Restaurant in San José del Cabo, Los Cabos</title>
+    <meta name="description" content="Ballena is a fine dining international restaurant in San José del Cabo, Los Cabos. Shaped by sea, grounded in land. Discover thoughtful dining, fresh seafood, and crafted wood-fired cuisine at Casa Ballena." />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Ballena | Fine Dining Restaurant in San José del Cabo" />
+    <meta property="og:description" content="An international kitchen rooted in territory, led by warmth, and made to be shared. Located in Casa Ballena, San José del Cabo." />
+    <meta property="og:site_name" content="Ballena Restaurant" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+    <!-- Schema.org Restaurant JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "name": "Ballena",
+      "image": "https://ballenacabo.com/images/hero.jpg",
+      "@id": "https://ballenacabo.com",
+      "url": "https://ballenacabo.com",
+      "telephone": "+526241056635",
+      "priceRange": "$$$$",
+      "servesCuisine": ["International", "Seafood", "Fine Dining", "Mexican Contemporary"],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Camino a Cabo del Este S/N, La Playa, Casa Ballena",
+        "addressLocality": "San José del Cabo",
+        "addressRegion": "B.C.S.",
+        "postalCode": "23403",
+        "addressCountry": "MX"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 23.0617,
+        "longitude": -109.6833
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+          "opens": "17:00",
+          "closes": "23:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Saturday", "Sunday"],
+          "opens": "12:00",
+          "closes": "16:00"
+        }
+      ]
+    }
+    </script>
+  </head>
+  <body class="bg-[#FAF7F2] text-[#121210] antialiased selection:bg-[#2C2A27] selection:text-[#FAF7F2] font-sans">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

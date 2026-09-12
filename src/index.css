@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  --color-brand-black: #121210;
+  --color-brand-charcoal: #181816;
+  --color-brand-cream: #FAF7F2;
+  --color-brand-cream-light: #FBF9F5;
+  --color-brand-stone: #8C8881;
+  --color-brand-stone-light: #E8E4DD;
+  --color-brand-terracotta: #C27A58;
+  --color-brand-sand: #D9D2C7;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    background-color: var(--color-brand-cream);
+    color: var(--color-brand-black);
+    overflow-x: hidden;
+  }
+  
+  h1, h2, h3, h4, .font-editorial {
+    font-family: var(--font-serif);
+  }
+}
+
+/* Custom smooth scrolling and minimal scrollbar */
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #121210;
+}
+::-webkit-scrollbar-thumb {
+  background: #3A3834;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #8C8881;
+}
+
+/* Glassmorphism subtle overlay */
+.backdrop-blur-nav {
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+

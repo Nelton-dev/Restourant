@@ -1,0 +1,6 @@
+{
+  "name": "Chicken Hut 1 Mozambique",
+  "description": "CHICKEN HUT 1 — O autêntico Frango Assado, Peri-Peri e Crocante em Maputo e Matola, Moçambique. Encomendas online, takeaway, e delivery.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
